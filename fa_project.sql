@@ -44,9 +44,6 @@ CREATE TABLE `assignedflights` (
 -- Dumping data for table `assignedflights`
 --
 
-INSERT INTO `assignedflights` (`id`, `flight_number`, `flight_date`, `captain`, `first_officer`, `fal`, `fa1`, `fa2`, `fa3`, `fa4`, `fa5`) VALUES
-(4, 234, '2016-04-20', 'hlima', 'ygonzalez', 'apena', '', '', '', '', '');
-
 -- --------------------------------------------------------
 
 --
@@ -68,10 +65,6 @@ CREATE TABLE `flights` (
 -- Dumping data for table `flights`
 --
 
-INSERT INTO `flights` (`flight_id`, `flight_number`, `flight_date`, `flight_origin`, `flight_destination`, `flight_start`, `flight_end`, `assigned`) VALUES
-(6, 234, '2016-04-20', 'FLL', 'NYC', 1200, 1600, 1),
-(11, 321, '2016-04-25', 'MIA', 'MCO', 2100, 2350, 0);
-
 -- --------------------------------------------------------
 
 --
@@ -91,10 +84,6 @@ CREATE TABLE `users` (
 --
 -- Dumping data for table `users`
 --
-
-INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `username`, `hash`, `permissions`) VALUES
-(18, 'humberto', 'lima', 'test3@email.com', 'hlima', '$2y$10$x/29Toytk6Jo3u.0PlH52Ot.1xsLTEy8a8FUODydJv4oxDjxF2J6m', 'pilot'),
-(20, 'annia', 'pena', 'test2@email.com', 'apena', '$2y$10$uobM2LmwisxKRafrO1Lni.TKK0YXx6nF0Kqu0/lQIbLMhAW408FQ6', 'fa');
 
 --
 -- Indexes for dumped tables
